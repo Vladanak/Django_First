@@ -1,7 +1,9 @@
 from django.conf.urls import url
-from django.urls import include, path
-from django.views.generic import ListView, DetailView
+from django.urls import path
+from django.views.generic import ListView
+from django.views.generic import DetailView
 from news.models import Articles
+
 
 urlpatterns = [
     url('^$', ListView.as_view

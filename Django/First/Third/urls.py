@@ -1,5 +1,6 @@
 from . import views
-from django.conf.urls import url, include
+from django.conf.urls import url
+
 
 urlpatterns = [
     url('^$', views.template, name = 'Template'),
